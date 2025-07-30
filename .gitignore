@@ -1,0 +1,26 @@
+# Haskell build artifacts
+/dist/
+/dist-newstyle/
+/.stack-work/
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Cabal and Stack files
+cabal.project.local
+cabal.project.local~
+stack.yaml.lock
+
+# Executables
+/bf-hs
+
+# VSCode and editor files
+.vscode/
+*.swp
+*~
+.DS_Store
